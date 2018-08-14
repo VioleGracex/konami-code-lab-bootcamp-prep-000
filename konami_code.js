@@ -19,7 +19,8 @@ const code = [
    document.addEventListener('keydown', function (e) {
      const key = parseInt(e.detail || e.which);
 
-     if (key === code[index]) {
+     if (key === code[index]) 
+     {
        index++;
 
        if (index === code.length - 1)
@@ -27,9 +28,10 @@ const code = [
          window.alert("YOU DID IT!");
          index = 0;
        }
-     } else
+     } 
+     else
      {
        index = 0;
      }
-   }, fale);
+   }, true);
  }
