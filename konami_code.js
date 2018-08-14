@@ -25,7 +25,7 @@ const code = [
      {
        index++;
 
-       if (index === code.length - 1)
+       if (index === code.length)
        {
          window.alert("YOU DID IT!");
          index = 0;
