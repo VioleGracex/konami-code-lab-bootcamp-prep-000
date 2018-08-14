@@ -1,4 +1,4 @@
-const code = [
+/*const code = [
     "ArrowUp",
     "ArrowUp",
     "ArrowDown",
@@ -35,13 +35,14 @@ const code = [
      {
        index = 0;
      }
-   }, true);*/
+   }, true);
    if (keys.toString().indexOf(konami) >= 0) {
             // do something such as:
             // alert('Konami');
-            
+
             // and finally clean up the keys array
             keys = [];
         };
     }, true);
- }
+ }*/
+ 
