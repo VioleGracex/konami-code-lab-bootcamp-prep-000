@@ -16,11 +16,11 @@ const code = [
   {
    // your code here
    var index = 0;
-   document.addEventListener('keydown', function (e) 
+   document.addEventListener('keydown', function (e)
    {
      const key = parseInt(e.detail || e.which);
 
-     if (key === code[index]) 
+     if (key === code[index])
      {
        index++;
 
@@ -32,6 +32,6 @@ const code = [
      } else
      {
        index = 0;
-     }
+     }false);
    }
  }
